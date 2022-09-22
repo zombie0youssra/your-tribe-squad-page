@@ -1,5 +1,7 @@
 h1{
   font-family: 'DM Serif Display', serif;
+  text-transform: uppercase;
+  font-size: 60pt;
 }
 
 body {
@@ -53,3 +55,7 @@ img {
   max-width: 20rem;
   width: 100%;
 }
+
+/* nav{
+  font-style: 
+} */
