@@ -1,6 +1,9 @@
+h1{
+  font-family: 'DM Serif Display', serif;
+}
+
 body {
   background-color: #dedcd5;
-  /* font-family: DM Serif Display; */
 }
 
 @media only screen and (min-width: 600px) {
@@ -43,6 +46,7 @@ article {
 figure {
   padding: 0;
   margin: 0;
+  font-family: 'PT Serif', serif;
 }
 
 img {
