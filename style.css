@@ -1,5 +1,5 @@
-h1{
-  font-family: 'DM Serif Display', serif;
+h1 {
+  font-family: "DM Serif Display", serif;
   text-transform: uppercase;
   font-size: 60pt;
 }
@@ -48,7 +48,7 @@ article {
 figure {
   padding: 0;
   margin: 0;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
 }
 
 img {
@@ -56,6 +56,8 @@ img {
   width: 100%;
 }
 
-/* nav{
-  font-style: 
-} */
+nav {
+  text-align: right;
+}
+
+/* MENU */
