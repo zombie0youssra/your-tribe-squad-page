@@ -1,86 +1,90 @@
-
-body{
+body {
   color: black;
-  background-color:#dedcd5;
-
+  background-color: #dedcd5;
 }
 
-  header{
-    text-align: center;
-
-  }
+header {
+  text-align: center;
+}
 
 .info {
   letter-spacing: 5px;
 }
-  article{
-    display: flex;
-    margin-bottom: 2em;
-    background-color: #d7d5cd;
-    border-radius: 2em;
-    
-  }
-
- a {
-   text-decoration: none;
-   display: inline-block;
-   padding: 8px 16px;
-   border-radius: 1,5em;
-   
- }
-
- a:hover {
-   background-color: #ddd;
-   color: black;
- }
-
- .previous {
-   background-color: #f1f1f1;
-   color: black;
- }
-
- .next {
-   background-color: #95928b;
-   color: white;
- }
-
-  aside {
-    display: flex;
-    flex-direction:column;
-  
-  }
-
-  @media screen and (min-width: 600px) {
-   
-    main {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-    }
-    article {
-      margin-bottom: 0em;
-      width:60%;
-    }
-    aside {
-      width:30%;
-    }
-
-    .reclame{
-      width: 180px;
-      height: 180px
-    }
+article {
+  display: flex;
+  margin-bottom: 2em;
+  background-color: #d7d5cd;
+  border-radius: 2em;
 }
 
+.p {
+  font-family: "PT Serif", serif;
+  font-size: 20pt;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 1, 5em;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #95928b;
+  color: white;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+  main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  article {
+    margin-bottom: 0em;
+    width: 60%;
+  }
+  aside {
+    width: 30%;
+  }
+
+  .reclame {
+    width: 180px;
+    height: 180px;
+  }
+}
 
 .headline {
-  display:flex;
-
+  display: flex;
+  font-family: "DM Serif Display", serif;
+  font-size: 40pt;
 }
-.foto{
+
+.p {
+  font-family: "PT Serif", serif;
+  font-size: 20pt;
+}
+
+.foto {
   height: 180px;
   width: 180px;
   border: 3px;
-  border-radius:50%;
-  border-style:solid;
+  border-radius: 50%;
+  border-style: solid;
   color: #c7c6bf;
 }

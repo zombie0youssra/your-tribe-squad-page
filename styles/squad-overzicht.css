@@ -1,0 +1,68 @@
+body {
+    background-color: #DEDCD5;
+}
+
+header {
+    text-align: center;
+
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid rgb(0, 0, 0);
+}
+
+h1 {
+    @font-face font-family: 'DM Serif Display';
+    src: url("./fonts/DMSerifDisplay-Regular.ttf");
+
+    text-align: center;
+    color: #000000;
+    font-size: 70pt;
+    text-transform: uppercase;
+}
+.info {
+    text-size-adjust: ;
+}
+h2 {
+    text-align: center;
+}
+
+/* article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-left: 10%;
+    margin-top: 2em;
+    width: 80%;
+    flex-wrap: wrap;
+    gap:2em; 
+}  */
+
+/* Large devices (laptops/desktops, 992px and up)
+@media only screen and (min-width: 992px) {} */
+
+.p1 {
+    float: left;
+    flex: 33.33%;
+    padding: 5px;
+    justify content: center;
+}
+
+.overzicht {
+    margin-left: 10%;
+    margin-top: 2em;
+}
+
+img {
+    height: 330px;
+    width: 300px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 16pt;
+    font-style: italic;
+    color: #000000;
+}
