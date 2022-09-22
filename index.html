@@ -7,23 +7,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=PT+Serif&display=swap" rel="stylesheet">
-    <script src="index.js"></script>
+    <script src="script.js"></script>
     <title>Squad B</title>
     
   </head>
+  
   <body>
 
-    <nav>
-      <!-- <a href="4eyes.html" target="_blank"></a> -->
-      <a href="codesnuivers.html" target="_blank"></a>
-      <a href="die-ene.html" target="_blank"></a>
-      <a href="drs.html" target="_blank"></a>
-    
-      <a href="4eyes.html">4eyes</a>
+    <nav class="site-nav">
+       <button onclick="myFunction()" class="dropdown-nav">Menu</button>
+  </nav>
 
-
-        
-    </nav>
+  <div id="dropdown" class="dropdown-content">
+      <a href="4eyes.html">4 eyes</a>
+      <a href="drs.html">DRS</a>
+      <a href="die-ene.html">Die ene</a>
+      <a href="codesnuivers.html">Codesnuivers</a>
+      <a href="docenten.html">Docenten</a>
+  </div>
 
     <header>
       <h1>The FDND Times</h1>
@@ -37,6 +38,7 @@
         <hr />
         <hr />
       </div>
+
     </header>
 
 <article>
@@ -264,5 +266,6 @@
     </article>
 
     </main>
+    <script src="script.js"></script>
   </body>
 </html>

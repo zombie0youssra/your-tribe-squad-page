@@ -7,6 +7,70 @@ header {
   text-align: center;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdown-nav {
+  font-size: 1em;
+  position: relative;
+  height: auto;
+  width: 80px;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 7px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:active {
+  background-color: burlywood;
+}
+
+h3 {
+  font-family: 'PT Serif', serif;
+  text-align: center;
+  width: 90%;
+}
+
+.button {
+  width: 30%;
+  height: 50px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'DM Serif Display';
+  text-decoration: none;
+  color: black;
+}
+
+.show {
+  display: block;
+  z-index: 2;
+  text-align: center;
+  left: 1em;
+  right: 1em;
+  border-radius: 0px 0px 10px 10px;
+}
+
 .info {
   letter-spacing: 5px;
 }
@@ -14,19 +78,36 @@ article {
   display: flex;
   margin-bottom: 2em;
   background-color: #d7d5cd;
-  border-radius: 2em;
+  border-radius: 0em;
+}
+
+.H1 {
+  font-family: "DM Serif Display";
+  text-align: center;
+  color: #000000;
+  font-size: 70pt;
+  text-transform: uppercase;
 }
 
 .p {
+  text-align: center;
+  font-size: 16pt;
+  font-style: italic;
+  color: #000000;
+  padding-left: 5em;
   font-family: "PT Serif", serif;
   font-size: 20pt;
 }
 
 a {
-  text-decoration: none;
+  text-decoration-color: #e6e2e2;
+  text-decoration-line: none;
   display: inline-block;
   padding: 8px 16px;
-  border-radius: 1, 5em;
+  border-radius: 0;
+  background-color: #b2b2b2;
+  margin-bottom: 1em;
+  margin-top: -1.5em;
 }
 
 a:hover {
@@ -35,13 +116,14 @@ a:hover {
 }
 
 .previous {
-  background-color: #f1f1f1;
+  background-color: #cbcbcb;
   color: black;
+  margin-top: 0.04em;
 }
 
 .next {
-  background-color: #95928b;
-  color: white;
+  background-color: #b2b2b2;
+  color: rgb(0, 0, 0);
 }
 
 aside {
@@ -72,19 +154,14 @@ aside {
 .headline {
   display: flex;
   font-family: "DM Serif Display", serif;
-  font-size: 40pt;
-}
-
-.p {
-  font-family: "PT Serif", serif;
-  font-size: 20pt;
 }
 
 .foto {
-  height: 180px;
-  width: 180px;
-  border: 3px;
-  border-radius: 50%;
+  height: 225px;
+  width: 225px;
+  border: 0px;
+  border-radius: 0%;
   border-style: solid;
   color: #c7c6bf;
+  padding: 1em;
 }

@@ -1,3 +1,3 @@
 function myFunction() {
-    document.getElementById("dropdown").classList.toggle("show");
+  document.getElementById("dropdown").classList.toggle("show");
 }
