@@ -7,23 +7,100 @@ header {
 
 }
 
-hr {
+/* hr {
     border: 0;
-    border-top: 2px solid rgb(0, 0, 0);
-}
+    border-top: 1px solid rgb(0, 0, 0); */
+ hr {
+            display: block;
+            unicode-bidi: isolate;
+            margin-block-start: 0.5em;
+            margin-block-end: 0.5em;
+            margin-inline-start: auto;
+            margin-inline-end: auto;
+            overflow: hidden;
+            border-style: inset;
+            border-width: 1px;
+        }
 
 h1 {
-    @font-face font-family: 'DM Serif Display';
-    src: url("./fonts/DMSerifDisplay-Regular.ttf");
+    font-family: 'DM Serif Display', serif;
+    /* @font-face font-family: 'DM Serif Display';
+    src: url("./fonts/DMSerifDisplay-Regular.ttf"); */
 
     text-align: center;
     color: #000000;
-    font-size: 70pt;
+    font-size: 60pt;
     text-transform: uppercase;
 }
-.info {
-    text-size-adjust: ;
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
 }
+
+.dropdown-nav {
+    font-size: 1em;
+    position: relative;
+    height: auto;
+    width: 80px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:active {
+    background-color: burlywood;
+}
+
+nav {
+    text-align: right;
+}
+
+.button {
+    width: 30%;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "DM Serif Display";
+    text-decoration: none;
+    color: black;
+}
+
+.show {
+    display: block;
+    z-index: 2;
+    text-align: center;
+    left: 1em;
+    right: 1em;
+    border-radius: 0px 0px 10px 10px;
+}
+.info {
+    font-size: 20px;
+    font-family: "PT Serif", serif;
+    text-align: center;
+}
+
 h2 {
     text-align: center;
 }
@@ -63,6 +140,7 @@ img {
 figcaption {
     text-align: center;
     font-size: 16pt;
+    font-family: "PT Serif", serif;
     font-style: italic;
     color: #000000;
 }
