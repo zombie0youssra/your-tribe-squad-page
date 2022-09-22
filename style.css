@@ -1,8 +1,51 @@
-p {
-    font-weight: medium;
+body {
+  background-color: #dedcd5;
+  /* font-family: DM Serif Display; */
 }
 
-img.small {
-    width: 330px;
-    height: 210px;
+@media only screen and (min-width: 600px) {
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-left: 10%;
+    margin-top: 2em;
+    width: 80%;
+    flex-wrap: wrap;
+    gap: 2em;
+  }
+}
+
+img {
+  width: 30%;
+  object-fit: cover;
+}
+
+header {
+  text-align: center;
+}
+
+/* HEADLINES IMGS */
+
+article {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+  font-size: 1, 8em;
+  align-items: stretch;
+}
+
+figure {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 20rem;
+  width: 100%;
 }
