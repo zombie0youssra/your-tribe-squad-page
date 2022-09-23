@@ -20,7 +20,8 @@ tijdens de ontwerpfase hebben wij inspiratie opgedaan vanuit verschillende bronn
 
 
 <h2> defenetieve schetsen</h2>
-![0D05527F-3C44-49D9-8544-44B0A2BFE310](https://user-images.githubusercontent.com/112857270/191721952-3e0b022c-801e-4579-a285-d42b21698cbe.jpeg)
+<img width="223" alt="image" src="https://user-images.githubusercontent.com/112857270/191942818-b21c4622-2ad5-4f43-9c61-3bc886293c25.png">
+
 
 ![015D66FE-C708-422B-9BCB-421E48EDAB5E](https://user-images.githubusercontent.com/112857270/191721958-da3018e2-e44b-41a4-800d-8bd70e90a32c.jpeg)
 
