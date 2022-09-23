@@ -18,4 +18,15 @@ wij hebben samen aan een squadpage gewerkt waarin we linken naar de visitekaartj
 <h2>ontwerpen</h2>
 tijdens de ontwerpfase hebben wij inspiratie opgedaan vanuit verschillende
 
+## gebruikte tools 🛠
+* visual studio code
+* photoshop
+* github
+
+## gebruikte talen 💻
+* javascript
+* html
+* css
+
 <h2>responsive design</h2>
+we wilden graag dat onze website ook op verschilende schermen even goed zo werken. Door media querys te gerbuiken is dat ons gelukt
