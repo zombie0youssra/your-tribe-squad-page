@@ -16,7 +16,13 @@ wij hebben samen aan een squadpage gewerkt waarin we linken naar de visitekaartj
 
 
 <h2>ontwerpen</h2>
-tijdens de ontwerpfase hebben wij inspiratie opgedaan vanuit verschillende
+tijdens de ontwerpfase hebben wij inspiratie opgedaan vanuit verschillende bronnen.
+
+
+<h2> defenetieve schetsen</h2>
+![0D05527F-3C44-49D9-8544-44B0A2BFE310](https://user-images.githubusercontent.com/112857270/191721952-3e0b022c-801e-4579-a285-d42b21698cbe.jpeg)
+
+![015D66FE-C708-422B-9BCB-421E48EDAB5E](https://user-images.githubusercontent.com/112857270/191721958-da3018e2-e44b-41a4-800d-8bd70e90a32c.jpeg)
 
 ## gebruikte tools 🛠
 * visual studio code
