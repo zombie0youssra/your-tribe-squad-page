@@ -18,6 +18,8 @@ wij hebben samen aan een squadpage gewerkt waarin we linken naar de visitekaartj
 <h2>ontwerpen</h2>
 tijdens de ontwerpfase hebben wij inspiratie opgedaan vanuit verschillende bronnen.
 
+![image](https://user-images.githubusercontent.com/112861261/191944179-72f8dd0e-6f41-4625-a204-dbcd1268da63.png)
+
 
 <h2> defenetieve schetsen</h2>
 <img width="223" alt="image" src="https://user-images.githubusercontent.com/112857270/191942818-b21c4622-2ad5-4f43-9c61-3bc886293c25.png">
